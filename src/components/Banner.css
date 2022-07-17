@@ -1,0 +1,25 @@
+.banner-image {
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  max-width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 4em;
+  border-radius: 5px;
+}
+
+.image-heading {
+  font-size: 1.5em;
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+  .banner-image {
+    height: auto;
+    max-width: 80%;
+    margin-bottom: 2em;
+  }
+}

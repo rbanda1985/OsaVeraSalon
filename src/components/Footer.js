@@ -1,7 +1,6 @@
 import React from 'react'
 import {
-  MDBFooter,
-  MDBIcon
+  MDBFooter
 } from 'mdb-react-ui-kit';
 
 const Footer = () => {

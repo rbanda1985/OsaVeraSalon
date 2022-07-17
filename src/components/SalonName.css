@@ -4,9 +4,9 @@
   text-align: center;
   transform: scale(0.95);
   animation: scale 5s forwards cubic-bezier(0.5, 1, 0.89, 1);
-  height: 400px;
+  height: 100vh;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
@@ -85,4 +85,11 @@
 
 .salon-two {
   font-size: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+  .name-container {
+    height: 100vh;
+    justify-content: center;
+  }
 }
