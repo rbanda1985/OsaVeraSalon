@@ -8,7 +8,7 @@ const StylistGallery = () => {
   let images = [
     {
       src: require('../assets/kristina.jpg'),
-      desc: <><a href='https://www.instagram.com/hair.xtina/?hl=en'>Instagram @hair.xtina</a>< br/> <br /><a href='https://squareup.com/appointments/book/LPANSEAKW9WCC'><button>Book Now</button></a></>,
+      desc: <><a href='https://www.instagram.com/hair.xtina/?hl=en'>@hair.xtina</a>< br/> <br /><a href='https://squareup.com/appointments/book/LPANSEAKW9WCC'><button>Book Now</button></a></>,
       sub: `Barber + Stylist Kristina is our one and only female barber! She is an all over stylist who specializes in mens cuts, haircutting, and balayages. With 6 years of experience she has perfected her mens cuts, and is now transitioning into lived in balayages + vivid colors. She has an established client all who are confident in her work.`
     },
     {

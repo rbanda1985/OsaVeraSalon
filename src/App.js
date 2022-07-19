@@ -23,7 +23,7 @@ function App() {
       <div className='salon-services'>
         <p>OsaVera Salon is proud to be your one stop shop for all of your salon and beauty needs. We have professionals at our salon that specialize in hair, nails, make-up, and lashes. </p>
       </div>
-      <div className='stylist-heading'>
+      <div className='stylist-heading' id='stylist'>
         <h2>Meet our salon professionals</h2>
         <StylistGallery />
       </div>

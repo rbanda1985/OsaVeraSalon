@@ -15,7 +15,7 @@ const Navbar = () => {
   const [showNavCentred, setShowNavCentred] = useState(false);
   return(
     <>
-      <MDBNavbar expand='lg' light bgColor='dark' className='navigation-bar'>
+      <MDBNavbar fixed='top' expand='lg' light bgColor='dark' className='navigation-bar'>
       <MDBContainer fluid>
         <MDBNavbarToggler
           type='button'
@@ -32,28 +32,18 @@ const Navbar = () => {
         <MDBCollapse navbar show={showNavCentred} center id='navbarCenteredExample'>
           <MDBNavbarNav fullWidth={false} className='mb-2 mb-lg-0'>
             <MDBNavbarItem>
-              <MDBNavbarLink active aria-current='page' href='#'>
+              <MDBNavbarLink active aria-current='page' href='/'>
                <span className='navigation-link'>Home</span>
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink href='#'>
+              <MDBNavbarLink href='#stylist'>
               <span className='navigation-link'>Stylist</span>
                 </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink href='#'>
-              <span className='navigation-link'>Policies</span>
-                </MDBNavbarLink>
-            </MDBNavbarItem>
-            <MDBNavbarItem>
-              <MDBNavbarLink href='#'>
+              <MDBNavbarLink href='#footerContact'>
               <span className='navigation-link'>Contact</span>
-                </MDBNavbarLink>
-            </MDBNavbarItem>
-            <MDBNavbarItem>
-              <MDBNavbarLink href='#'>
-              <span className='navigation-link'>Gallery</span>
                 </MDBNavbarLink>
             </MDBNavbarItem>
           </MDBNavbarNav>

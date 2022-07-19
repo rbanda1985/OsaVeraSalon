@@ -15,3 +15,14 @@ button {
 .styles_thumbpanel__1sa4E {
   position: absolute;
 }
+
+.styles_sub__363ZQ {
+  font-size: 1em;
+  font-weight: 600;
+  padding-bottom: 1em;
+}
+
+.styles_lightroomdesc__rNPED h1 + p {
+  font-weight: 600;
+  text-decoration: underline;
+}
