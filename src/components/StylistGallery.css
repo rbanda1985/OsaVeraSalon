@@ -1,3 +1,17 @@
 .lightroom {
   cursor: pointer;
 }
+
+button {
+  border-radius: 8px;
+  padding: 4px 8px;
+  background-color: lightgrey;
+  color: black;
+  font-weight: 800;
+  overflow: hidden;
+  font-family: "Roboto", sans-serif;
+}
+
+.styles_thumbpanel__1sa4E {
+  position: absolute;
+}
