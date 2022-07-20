@@ -13,7 +13,7 @@ code {
 }
 
 @font-face {
-  font-family: "Henderickson";
+  font-family: "Hendrickson";
   src: local("Hendrickson"),
-    url(./fonts/Hendrickson-K7GOD.otf) format("truetype");
+    url(./fonts/Hendrickson-K7GOD.otf) format("opentype");
 }

@@ -3,3 +3,23 @@
   flex-direction: column;
   align-items: center;
 }
+
+.hoh {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: start;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.operation-title {
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+  .hoh {
+    justify-content: flex-start;
+    text-align: start;
+  }
+}

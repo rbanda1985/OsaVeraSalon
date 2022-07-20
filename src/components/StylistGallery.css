@@ -13,16 +13,29 @@ button {
 }
 
 .styles_thumbpanel__1sa4E {
-  position: absolute;
+  position: absolute !important;
 }
 
 .styles_sub__363ZQ {
   font-size: 1em;
-  font-weight: 600;
+  font-weight: 400;
   padding-bottom: 1em;
+  font-family: "Julius Sans One", sans-serif;
+  font-style: normal;
+}
+
+.styles_lightroomdesc__rNPED a {
+  font-family: "Julius Sans One", sans-serif;
+  text-decoration: none;
+  color: lightpink;
 }
 
 .styles_lightroomdesc__rNPED h1 + p {
   font-weight: 600;
-  text-decoration: underline;
+  font-family: "Julius Sans One", sans-serif;
+  font-style: normal;
+}
+
+.styles_lightroomdesc__rNPED h1 + p + p {
+  font-style: normal;
 }

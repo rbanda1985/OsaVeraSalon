@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar';
 import './App.css';
+import './index.css';
 import SalonName from './components/SalonName';
 import Footer from './components/Footer';
 import Banner from './components/Banner';
@@ -17,7 +18,7 @@ function App() {
       <div className='banner-group'>
       <Banner image={hairImage} title='Hair' alt='Hair'/>
       <Banner image={lashesImage} title='Lashes' alt='Lashes'/>
-      <Banner image={beautyImage} title='Beauty' alt='Beauty'/>
+      <Banner image={beautyImage} title='Makeup' alt='Makeup'/>
       <Banner id='nail' image={nailImage} title='Nails' alt='Nail Polish' />
       </div>
       <div className='salon-services'>

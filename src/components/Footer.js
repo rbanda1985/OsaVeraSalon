@@ -43,6 +43,23 @@ const Footer = () => {
                 <i className='fas fa-envelope me-3'></i>
                 osaverasalon21@gmail.com
               </p>
+              <p>
+                <i className='fas fa-phone me-3'></i> 817-405-1085
+              </p>
+              <div className='hoh'>
+                <p className='operation-title'>
+                  Hours Of Operation
+                </p>
+                <ul>
+                  <li>Sunday: Closed</li>
+                  <li>Monday: Closed</li>
+                  <li>Tuesday: 10-5</li>
+                  <li>Wednesday: 10-5</li>
+                  <li>Thursday: 10-5</li>
+                  <li>Friday: 10-5</li>
+                  <li>Saturday: 10-3</li>
+                </ul>
+              </div>
               <div className='text-center'>
               <GoogleMap />
               </div>

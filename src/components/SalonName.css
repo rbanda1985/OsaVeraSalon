@@ -86,7 +86,7 @@
 
 .salon-one {
   margin-bottom: -32px;
-  font-family: "Julius Sans One", sans-serif;
+  font-family: "Hendrickson", "Julius Sans One", sans-serif;
   font-size: 7em;
 }
 
@@ -99,5 +99,14 @@
   .name-container {
     height: 100vh;
     justify-content: center;
+  }
+  .salon-one {
+    font-size: 5em;
+    margin-bottom: -8px;
+    font-family: "Hendrickson", "Julius Sans One", sans-serif;
+  }
+  .salon-two {
+    font-size: 1em;
+    font-family: "Julius Sans One", sans-serif;
   }
 }
